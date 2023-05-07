@@ -1,5 +1,10 @@
 [
   {
+    "name": "INDEX",
+    "url": "https://synopticoffice.github.io/gdcatalogue/",
+    "owner": "Synoptic Office"
+  },
+  {
     "name": "FIRST TEST",
     "url": "https://synopticoffice.github.io/gdcatalogue/LASTNAME_FIRSTINITIAL/",
     "owner": "John Doe"
