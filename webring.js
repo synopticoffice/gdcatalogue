@@ -35,7 +35,7 @@ class WebRing extends HTMLElement {
     this.attachShadow({ mode: "open" });
     this.shadowRoot.appendChild(template.content.cloneNode(true));
 
-    // e.g. https://css-tricks.com
+    // e.g. https://synopticoffice.github.io/gdcatalogue/
     const thisSite = this.getAttribute("site");
 
     fetch(DATA_FOR_WEBRING)

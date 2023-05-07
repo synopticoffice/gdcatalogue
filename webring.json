@@ -13,5 +13,10 @@
     "name": "THIRDTEST",
     "url": "https://synopticoffice.github.io/gdcatalogue/testing3/",
     "owner": "Box Buckly"
+  },
+  {
+    "name": "ORIGINAL",
+    "url": "https://synopticoffice.github.io/gdcatalogue/",
+    "owner": "Synoptic Office"
   }
 ]
