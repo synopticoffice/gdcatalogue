@@ -17,17 +17,12 @@ template.innerHTML = `
 
   font: 100% system-ui, sans-serif;
 }
-.icon {
-  font-size: 100px;
-}
 </style>
 
 <div class="webring">
-  <div class="icon">🤜</div>
   <div id="copy">
     
   </div>
-  <div class="icon">🤛</div>
 </div>`;
 
 class WebRing extends HTMLElement {
