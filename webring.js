@@ -9,13 +9,8 @@ template.innerHTML = `
   border-left-color: #666;
   padding: 1rem; 
 
-  display: grid;
-  grid-template-columns: 1fr 4fr 1fr;
-  grid-gap: 1rem;
-
+  display: block;
   text-align: center;
-
-  font: 100% system-ui, sans-serif;
 }
 </style>
 
