@@ -1,0 +1,17 @@
+[
+  {
+    "name": "FIRST TEST",
+    "url": "https://synopticoffice.github.io/gdcatalogue/LASTNAME_FIRSTINITIAL/",
+    "owner": "John Doe"
+  },
+  {
+    "name": "SECONDTEST",
+    "url": "https://synopticoffice.github.io/gdcatalogue/testing/",
+    "owner": "Sally Sue"
+  },
+  {
+    "name": "THIRDTEST",
+    "url": "https://synopticoffice.github.io/gdcatalogue/testing3/",
+    "owner": "Box Buckly"
+  }
+]
