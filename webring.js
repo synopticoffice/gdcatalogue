@@ -6,7 +6,7 @@ const template = document.createElement("template");
 template.innerHTML = `
 <style>
 .webring {
-  border: 5px ridge #222;
+  border: 5px groove #222;
   padding: 1rem; 
   display: block;
   text-align: center;
