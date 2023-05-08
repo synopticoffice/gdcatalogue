@@ -6,9 +6,10 @@ const template = document.createElement("template");
 template.innerHTML = `
 <style>
 .webring {
-  border: 5px groove #222;
+  border: 5px groove;
   padding: 1rem; 
   display: block;
+  width: 50%;
   text-align: center;
 }
 </style>
