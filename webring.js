@@ -9,6 +9,10 @@ template.innerHTML = `
     display: block;
     width: 100%;
     background-color: #FFFFFF;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 100;
 }
 
 #copy {
@@ -57,7 +61,7 @@ class WebRing extends HTMLElement {
         const randomSiteIndex = this.getRandomInt(0, sites.length - 1);
 
         const cp = `
-          <p>A Graphic Design Catalogue<br />
+          <p>A Catalogue of Graphic Design<br />
             <a href="${matchedSite.url}">${matchedSite.name}</a> was authored by ${matchedSite.owner}
           </p>
           
