@@ -1,0 +1,61 @@
+body {
+    background-color:gray;  
+    padding: 40px; 
+    font-family: Helvetica, Arial, sans-serif;
+}
+.container {  display: grid;
+    grid-template-columns: 0.5fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 20px 20px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "AI-I-cant video writings";
+  }
+  
+  .AI-I-cant { grid-area: AI-I-cant;
+        padding-top: 200px;
+        background-color: blue;
+        padding-left: 20px;
+        padding-right: 20px;
+ }
+  
+  .video { grid-area: video; 
+        padding-top: 220px;
+}
+  
+  .writings { grid-area: writings;
+        padding-top: 200px;
+}
+  
+  h1{
+    color:aliceblue
+  }
+  h2{
+    color:aliceblue
+  }
+  p{
+    color: blue;
+    line-height:30px;
+  }
+  html, body , .container {
+    height: 100%;
+    margin: 0;
+  }
+  .title:hover{
+    color:yellow;
+  }
+  .title {
+    font-size:1.2em;
+  }
+
+  .aianswer:hover{
+    color:yellow;
+  }
+  .aianswer {
+    color:grey;
+  }
+  .videocaption {
+    font-size: 10px;
+    color: yellow;
+    line-height: 12px;
+  }
