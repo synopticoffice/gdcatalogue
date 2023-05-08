@@ -62,7 +62,7 @@ class WebRing extends HTMLElement {
 
         const cp = `
           <p>A Catalogue of Graphic Design<br />
-            <a href="${matchedSite.url}">${matchedSite.name}</a> was authored by ${matchedSite.owner}
+            <a href="${matchedSite.url}">${matchedSite.name}</a>, ${matchedSite.owner}
           </p>
           
           <p>
