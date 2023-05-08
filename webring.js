@@ -10,8 +10,7 @@ template.innerHTML = `
   padding: 1rem; 
   display: block;
   width: 50%;
-  margin-left: auto;
-  margin-right; auto;
+  margin: 0 auto;
   text-align: center;
   font-size: 0.875rem;
   font-family: helvetica, arial, sans-serif;
