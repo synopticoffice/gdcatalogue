@@ -67,8 +67,8 @@ class WebRing extends HTMLElement {
           
           <p>
             <a href="${sites[prevSiteIndex].url}">[Prev]</a>
-            <a href="${sites[nextSiteIndex].url}">[Next]</a>
             <a href="${sites[randomSiteIndex].url}">[Random]</a>
+            <a href="${sites[nextSiteIndex].url}">[Next]</a>
           </p>
         `;
 
