@@ -1,0 +1,179 @@
+/* Your styles here... */
+*{
+    font-size: 10px;
+    font-family: 'Arial Narrow', sans-serif;
+}
+
+body{
+    padding: 1em;
+}
+
+h1{
+    font-size: 2em;
+}
+
+p{
+    color: blue;
+    font-size: 1.5em;
+    padding: .5em;
+    mix-blend-mode: difference;
+}
+
+header p:hover{
+    background-color: navy;
+}
+
+.p-serif{
+    font-family: 'Times New Roman', serif;
+}
+
+.p-small{
+    font-size: 1em;
+}
+
+img{
+    max-width: 25vw;
+}
+
+.floating-def{
+    z-index: 2000;
+}
+
+.floating-def:hover{
+    font-size: 4em;
+}
+
+/* Header */
+.header-wrapper{
+    display: flex;
+    justify-items: space-between;
+    position: fixed;
+    z-index: 1500;
+    background-color: mediumaquamarine;
+    padding-left: 1.5em;
+    width: 100%;
+}
+
+.header-wrapper--item{
+    display: block;
+    background-color:seagreen;
+}
+
+.spider-crawling{
+    z-index: -1000;
+}
+
+.spider {
+    position: absolute;
+    top: 50%;
+    left: -30vw;
+    /* width: 50px;
+    height: 50px; */
+    animation: spider-crawl-X 20s ease-in-out infinite;
+    /* animation: spider-crawl-Y 5s linear infinite; */
+  }
+  
+@keyframes spider-crawl-X {
+    0% { transform: translateX(0); }
+    50% { transform: translateX(100%); }
+    100% { transform: translateX(0); }
+}
+
+.spider2 {
+    position: absolute;
+    top: 40%;
+    left: 20vw;
+    /* width: 50px;
+    height: 50px; */
+    animation: spider-crawl-X 20s ease-in-out infinite;
+    /* animation: spider-crawl-Y 5s linear infinite; */
+  }
+
+/* @keyframes spider-crawl-Y {
+    0% { transform: translateY(0); }
+    50% { transform: translateY(10%); }
+    100% { transform: translateY(0); }
+} */
+
+/* Main */
+.explanation-wrapper{
+    margin: auto;
+    width: 60vw;
+}
+
+.explanation{
+    max-width: 30%;
+    margin: auto;
+    position: fixed;
+    display: block;
+}
+
+.explanation--posthuman{
+    
+}
+
+.explanation--antihuman{
+    margin-left: -2%;
+}
+
+.explanation--nonhuman{
+    margin-left: 2%;
+}
+
+.explanation--antihuman:hover{
+    margin-left: 50%;
+}
+
+.explanation--nonhuman:hover{
+    margin-left: 50%;
+}
+
+.explanation--posthuman:hover{
+    margin-left: 50%;
+}
+
+.explanation--posthuman::selection{
+    text-decoration: solid underline blue 4px;
+}
+
+.back-text{
+    z-index: -500;
+    color: white;
+    display: block;
+    position: absolute;
+    margin-top: 90vh;
+    max-width: 50vw;
+    /* text-decoration: solid underline blue 4px; */
+    font-size: 3em;
+}
+
+.back-text p {
+    margin-bottom: 30vh;
+}
+
+.back-text p:hover{
+    color: blue;
+}
+
+.back-text2{
+    z-index: -500;
+    color: white;
+    display: block;
+    position: absolute;
+    margin-left: 50vw;
+    max-width: 50vw;
+    /* text-decoration: solid underline blue 4px; */
+    font-size: 2em;
+    margin-top: 200vh;
+}
+
+.back-text2 p {
+    margin-bottom: 30vh;
+}
+
+.back-text p:hover{
+    color: blue;
+}
+
+
+
