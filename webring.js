@@ -19,9 +19,7 @@ template.innerHTML = `
 </style>
 
 <div class="webring">
-  <div id="copy">
-    
-  </div>
+  <div id="copy"></div>
 </div>`;
 
 class WebRing extends HTMLElement {
