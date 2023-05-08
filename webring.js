@@ -6,14 +6,17 @@ const template = document.createElement("template");
 template.innerHTML = `
 <style>
 .webring {
-  border: 5px groove;
-  padding: 0 1rem; 
-  display: block;
-  width: 50%;
-  margin: 0 auto;
-  text-align: center;
-  font-size: 0.875rem;
-  font-family: helvetica, arial, sans-serif;
+    display: block;
+    width: 100%;
+}
+
+#copy {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between
+    width: 100%;
+    font-family: helvetica, arial, sans-serif;
+    font-size: 0.875rem;
 }
 
 </style>
@@ -50,8 +53,7 @@ class WebRing extends HTMLElement {
         const randomSiteIndex = this.getRandomInt(0, sites.length - 1);
 
         const cp = `
-          <h1>A Graphic Design Catalogue</h1>
-          <p>
+          <p>A Graphic Design Catalogue<br />
             <a href="${matchedSite.url}">${matchedSite.name}</a> was authored by ${matchedSite.owner}
           </p>
           
