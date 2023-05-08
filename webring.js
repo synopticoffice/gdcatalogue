@@ -8,6 +8,7 @@ template.innerHTML = `
 .webring {
     display: block;
     width: 100%;
+    background-color: #FFFFFF;
 }
 
 #copy {
