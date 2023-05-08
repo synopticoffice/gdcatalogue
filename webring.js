@@ -13,13 +13,10 @@ template.innerHTML = `
   margin-left: auto;
   margin-right; auto;
   text-align: center;
+  font-size: 0.875rem;
+  font-family: helvetica, arial, sans-serif;
 }
-.webring h1 {
-    font-family: helvetica, arial, sans-serif;
-}
-.webring p {
-    font-family: helvetica, arial, sans-serif;
-}
+
 </style>
 
 <div class="webring">
@@ -56,7 +53,7 @@ class WebRing extends HTMLElement {
         const cp = `
           <h1>Graphic Design Catalogue</h1>
           <p>
-            This <a href="${matchedSite.url}">${matchedSite.name}</a> page was authored by ${matchedSite.owner}
+            <a href="${matchedSite.url}">${matchedSite.name}</a> page was authored by ${matchedSite.owner}
           </p>
           
           <p>
