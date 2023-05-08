@@ -7,7 +7,7 @@ template.innerHTML = `
 <style>
 .webring {
   border: 5px groove;
-  padding: 1rem; 
+  padding: 0 1rem; 
   display: block;
   width: 50%;
   margin: 0 auto;
