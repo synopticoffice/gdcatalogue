@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+ }
+
+ body{
+    background-color:darkslategray;
+ }
+
+ h1{
+    color: white;
+    font-family: 'Chivo Mono', monospace;
+    font-size: 80px;
+    text-align: center;
+    position: fixed;
+    z-index: -200;
+ }
+
+ summary.subtitle:hover{
+    color: brown;
+    background-color: white;
+ }
+
+ .subtitle{
+    color: white;
+    font-family: 'Chivo Mono', monospace;
+    margin: 20px;
+ }
+
+ .subtitle_2{
+    color: white;
+    font-family: 'Chivo Mono', monospace;
+    margin: 80px;
+ }
+
+ .bodytext{
+    color: white;
+    font-family: 'Chivo Mono', monospace;
+    margin-left: 80px;
+    margin-right: 300px;
+    margin-bottom: 12px;
+ }
+
+ .webstyle{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+ }
