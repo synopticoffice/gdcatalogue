@@ -6,10 +6,12 @@ const template = document.createElement("template");
 template.innerHTML = `
 <style>
 .webring {
-  border: 50px groove;
+  border: 5px groove;
   padding: 1rem; 
   display: block;
   width: 50%;
+  margin-left: auto;
+  margin-right; auto;
   text-align: center;
 }
 .webring h1 {
