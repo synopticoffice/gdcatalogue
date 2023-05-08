@@ -14,10 +14,13 @@ template.innerHTML = `
 #copy {
     display: flex;
     flex-flow: row nowrap;
-    justify-content: space-between
-    width: 100%;
+    justify-content: space-between;
+    width: calc(100%-1.75rem);
+    padding: 0 0.875rem;
     font-family: helvetica, arial, sans-serif;
     font-size: 0.875rem;
+    background-color: #FFFFFF;
+    color: #000000;
 }
 
 </style>
