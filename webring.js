@@ -6,11 +6,17 @@ const template = document.createElement("template");
 template.innerHTML = `
 <style>
 .webring {
-  border: 5px groove;
+  border: 50px groove;
   padding: 1rem; 
   display: block;
   width: 50%;
   text-align: center;
+}
+.webring h1 {
+    font-family: helvetica, arial, sans-serif;
+}
+.webring p {
+    font-family: helvetica, arial, sans-serif;
 }
 </style>
 
