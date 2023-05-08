@@ -1,3 +1,5 @@
+//Adapted from https://css-tricks.com/how-you-might-build-a-modern-day-webring/
+
 const DATA_FOR_WEBRING = `https://synopticoffice.github.io/gdcatalogue/webring.json`;
 
 const template = document.createElement("template");
