@@ -1,0 +1,35 @@
+body {
+    font-size: 1.3em;
+}
+
+.question {
+    font-weight: bold;
+}
+
+.question:hover {
+    text-shadow: 3px 5px 5px red;
+    font-size: 2em;
+}
+
+.answer:hover {
+    text-shadow: 7px 7px 2px #2BCFFF;
+    font-size: 2em;
+}
+
+.fixed-1 {
+    position: fixed;
+    font-size: 4em;
+    top: 5%;
+    z-index: -200;
+    max-width: 25ch;
+    left: 28%;
+    text-shadow: 5px 5px 5px magenta;
+}
+
+.fixed-2 {
+    position: fixed;
+    font-size: 3em;
+    top: 73%;
+    left: 68%;
+    text-shadow: 5px 5px 5px turquoise;
+}
