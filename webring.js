@@ -6,11 +6,8 @@ const template = document.createElement("template");
 template.innerHTML = `
 <style>
 .webring {
-  border: 15px solid #222;
-  border-top-color: #666;
-  border-left-color: #666;
+  border: 5px ridge #222;
   padding: 1rem; 
-
   display: block;
   text-align: center;
 }
@@ -50,7 +47,7 @@ class WebRing extends HTMLElement {
         const cp = `
           <h1>Graphic Design Catalogue</h1>
           <p>
-            This <a href="${matchedSite.url}">${matchedSite.name}</a> site is owned by ${matchedSite.owner}
+            This <a href="${matchedSite.url}">${matchedSite.name}</a> page was authored by ${matchedSite.owner}
           </p>
           
           <p>
