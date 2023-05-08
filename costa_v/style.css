@@ -1,0 +1,66 @@
+marquee{
+    font-size: 80px;
+    font-weight: 800;
+    color: #ff0000;
+    font-family: sans-serif;
+}
+
+body {
+background-image: repeating-linear-gradient(rgb(0, 0, 0), rgb(255, 0, 0) 10%, rgb(0, 0, 0) 20%);
+    }
+  
+
+  p {
+color: white;
+font-family: 'Open Sans', sans-serif;
+  }
+
+  h3 { 
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+  }
+
+  ul { 
+    color: white;
+    font-family: 'Comic Neue', cursive;
+  }
+
+  p {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 150px;
+    margin-left: 80px;
+  }
+  h3 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 150px;
+    margin-left: 80px;
+  }
+  ul {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 150px;
+    margin-left: 80px;
+  }
+  .bad-cliche {
+    width: 80%;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .good-cliche {
+    width: 80%;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .chat-vid {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    
+  }
+
+ 
